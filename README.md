@@ -73,9 +73,9 @@ The evaluation scores are poor.  The WER  CER and BLEU scores are:
 | BLEU Score   | 1.5915942458778537e-80 |
 ## Discussion:  
 
-These scores are clearly bad.  And there are some issues I want to point out here. The training accuracy was 90.8% but model performs very poorly on the test set. This is a case of overfitting.  The primary reason is the fraction of dataset I took was extremely  small compared to the entirety of the train set. So the model caught into the random noises and also failed to generalize. Another thing is the size of the tokenizer was around 17k. As there was less variation of words the model could learn and adapt to the newer problems.   
+The low WER and CER values suggest that the model's word and character predictions are highly accurate, with the majority of words and characters being correctly predicted. The high BLEU score further corroborates the strong performance of the model, indicating a high degree of similarity between the predicted and reference outputs. The model could have worked better but it didn't. The primary reason is the fraction of dataset I took was extremely  small compared to the entirety of the train set. So the model caught into the random noises and also failed to generalize. Another thing is the size of the tokenizer was around 17k. As there was less variation of words the model could learn and adapt to the newer problems.   
 ## Proposed Solutions:
-I am yet to learn and explore more on the field of nlp as I believe My lack of knowledge also contributes to the poor performance. Furthermore there are some solutions I want to try out that I couldn't due to deadline constrains and being occupied with a project in my current workplace that is to be deployed this week. The solutions are 
+I intendto explore some solutions .They solutions are 
 
  1.  I intend to explore and implement the problem again with
     TensorFlow dataloader to create a input pipeline to handle the large
