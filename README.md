@@ -74,10 +74,10 @@ The evaluation scores are poor.  The WER  CER and BLEU scores are:
 ## Discussion:  
 
 The low WER and CER values suggest that the model's word and character predictions are highly accurate, with the majority of words and characters being correctly predicted. The high BLEU score further corroborates the strong performance of the model, indicating a high degree of similarity between the predicted and reference outputs. The model could have worked better but it didn't. The primary reason is the fraction of dataset I took was extremely  small compared to the entirety of the train set. So the model caught into the random noises and also failed to generalize. Another thing is the size of the tokenizer was around 17k. As there was less variation of words the model could learn and adapt to the newer problems.   
-## Proposed Solutions:
-I intendto explore some solutions .They solutions are 
+## Proposed Improvements:
+I intend to explore some solutions .They solutions are 
 
- 1.  I intend  to explore and implement the problem again with
+ 1.  I intend to explore and implement the problem again with
     TensorFlow dataloader to create a input pipeline to handle the large
     data issue
  2. I don't advocate for splitting the dataset into smaller parts and
