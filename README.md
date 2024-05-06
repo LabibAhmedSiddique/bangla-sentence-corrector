@@ -68,9 +68,9 @@ So the model doesn't perform well on the test set and lets discuss why
 The evaluation scores are poor.  The WER  CER and BLEU scores are: 
 | Metric       | Value                  |
 |--------------|------------------------|
-| Average WER  | 4.296264541080916      |
-| Average CER  | 0.7355076762296042     |
-| BLEU Score   | 1.5915942458778537e-80 |
+| Average WER  | 0.46909027191250546    |
+| Average CER  | 0.07864318477783686    |
+| BLEU Score   | 0.8366168205319402     |
 ## Discussion:  
 
 The low WER and CER values suggest that the model's word and character predictions are highly accurate, with the majority of words and characters being correctly predicted. The high BLEU score further corroborates the strong performance of the model, indicating a high degree of similarity between the predicted and reference outputs. The model could have worked better but it didn't. The primary reason is the fraction of dataset I took was extremely  small compared to the entirety of the train set. So the model caught into the random noises and also failed to generalize. Another thing is the size of the tokenizer was around 17k. As there was less variation of words the model could learn and adapt to the newer problems.   
