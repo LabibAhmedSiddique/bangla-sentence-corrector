@@ -77,7 +77,7 @@ The low WER and CER values suggest that the model's word and character predictio
 ## Proposed Solutions:
 I intendto explore some solutions .They solutions are 
 
- 1.  I intend to explore and implement the problem again with
+ 1.  I intend  to explore and implement the problem again with
     TensorFlow dataloader to create a input pipeline to handle the large
     data issue
  2. I don't advocate for splitting the dataset into smaller parts and
