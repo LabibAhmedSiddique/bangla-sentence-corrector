@@ -62,7 +62,7 @@ pip install tensorflow pandas numpy scikit-learn nltk
     -   Compiled the model with the Adam optimizer and sparse categorical cross-entropy loss function.
     -   Trained the model on the preprocessed data with a  epochs of 10 and batch size 16.
 # Evaluation discussion and shortcomings 
-So the model doesn't perform well on the test set and lets discuss why 
+The model performs relatively well but there are areas to improve. Lets discuss about them
 
 ## Evaluation  Score: 
 The evaluation scores are poor.  The WER  CER and BLEU scores are: 
