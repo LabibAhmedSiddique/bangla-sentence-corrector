@@ -33,13 +33,13 @@ There are 1356300 samples is train set and 900 samples in test set
 - TensorFlow 2.x
 - pandas
 - numpy
-- scikit-learn
+- python-Levenshtein
 - nltk
 
 ## Installation
 
 ```bash
-pip install tensorflow pandas numpy scikit-learn nltk
+pip install tensorflow pandas numpy python-Levenshtein nltk
 ```
 ## General training information 
 1.  **Data Preprocessing**:
