@@ -6,7 +6,7 @@ This repository contains code for my “Bangla Sentence Error Correction” nlp 
 I opted for a sequence-to-sequence (seq2seq) model architecture due to its inherent advantages: end-to-end learning, contextual awareness, generalizability, and the ability to handle diverse error types. While I considered alternative approaches, rule-based systems, as discussed in [paper](https://ieeexplore.ieee.org/abstract/document/8554502) [2], require significant manual effort and domain expertise. Traditional machine learning approaches also face similar challenges, particularly in feature engineering and maintaining sequential context.
 
 ## Dataset 
-I used this [dataset](https://github.com/hishab-nlp/BNSECData)
+I used this [dataset](https://github.com/hishab-nlp/BNSECData) . There are 
 two files for train and test set as.csv format   
 A small sample of the dataset looks like the  following 
 | Target Input                                        | Target Output                                        |
