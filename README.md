@@ -65,7 +65,7 @@ pip install tensorflow pandas numpy python-Levenshtein nltk
 The model performs relatively well but there are areas to improve. Lets discuss about them
 
 ## Evaluation  Score: 
-The evaluation scores are poor.  The WER  CER and BLEU scores are: 
+The WER  CER and BLEU scores are: 
 | Metric       | Value                  |
 |--------------|------------------------|
 | Average WER  | 0.46909027191250546    |
